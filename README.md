@@ -1,16 +1,11 @@
 # q_tech
 
-A new Flutter application.
+A Flutter demo product page.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Design from : http://3.1.180.10/api/product-core/suzuki-gsx-r150-fi-dual-channel-abs-yvj2/0/
 
-A few resources to get you started if this is your first Flutter project:
+API link: http://3.1.180.10/api/product-core/suzuki-gsx-r150-fi-dual-channel-abs-yvj2/0/
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
