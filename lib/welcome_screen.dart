@@ -86,13 +86,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       children: [
                         Container(
                           height: 250.h,
+                          width: MediaQuery.of(context).size.width,
                           clipBehavior: Clip.antiAlias,
                           decoration: const BoxDecoration(
+                              color: Colors.red,
                               borderRadius: BorderRadius.only(
                                   bottomLeft: Radius.circular(15),
                                   bottomRight: Radius.circular(15))),
 
-                          child:FancyShimmerImage(
+                          child:
+                          // Image.network(snapshot.data!.bannerImage,)
+                          FancyShimmerImage(
                             imageUrl: snapshot.data!.bannerImage,
                             boxFit: BoxFit.cover,
                             height: 150.h,
